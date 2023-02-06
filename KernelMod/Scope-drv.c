@@ -55,20 +55,18 @@ static ssize_t device_write(struct file *,
 
 //Define GPIO Pins
 
-//ADC 1
-#define BIT0_PIN 7
-#define BIT1_PIN 8
-#define BIT2_PIN 9
-#define BIT3_PIN 10
-#define BIT4_PIN 11
-#define BIT5_PIN 25
-//ADC 2
-#define BIT0_PIN2 17
-#define BIT1_PIN2 18
-#define BIT2_PIN2 22
-#define BIT3_PIN2 23
-#define BIT4_PIN2 24
-#define BIT5_PIN2 27
+//ADC1
+#define BIT0_ADC1 15
+#define BIT1_ADC1 16
+#define BIT2_ADC1 17
+#define BIT3_ADC1 18
+#define BIT4_ADC1 19
+#define BIT5_ADC1 20
+#define BIT6_ADC1 22
+#define BIT7_ADC1 25
+#define BIT8_ADC1 26
+#define BIT9_ADC1 27
+
 
 //---------------------------------------------------------------------------------------------------------
 
