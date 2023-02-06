@@ -197,20 +197,17 @@ int init_module(void)
 
 	//Define Scope pins
 	// Define as  Input
-	INP_GPIO(BIT0_PIN);
-	INP_GPIO(BIT1_PIN);
-	INP_GPIO(BIT2_PIN);
-	INP_GPIO(BIT3_PIN);
-	INP_GPIO(BIT4_PIN);
-	INP_GPIO(BIT5_PIN);
-
-	INP_GPIO(BIT0_PIN2);
-	INP_GPIO(BIT1_PIN2);
-	INP_GPIO(BIT2_PIN2);
-	INP_GPIO(BIT3_PIN2);
-	INP_GPIO(BIT4_PIN2);
-	INP_GPIO(BIT5_PIN2);
-
+	INP_GPIO(BIT0_ADC1);
+	INP_GPIO(BIT1_ADC1);
+	INP_GPIO(BIT2_ADC1);
+	INP_GPIO(BIT3_ADC1);
+	INP_GPIO(BIT4_ADC1);
+	INP_GPIO(BIT5_ADC1);
+	INP_GPIO(BIT6_ADC1);
+	INP_GPIO(BIT7_ADC1);
+	INP_GPIO(BIT8_ADC1);
+	INP_GPIO(BIT9_ADC1);
+	
 	//Set a clock signal on Pin 4
 	struct bcm2835_peripheral *p=&myclock;
 	p->addr=(uint32_t *)ioremap(CLOCK_BASE, 41*4);
